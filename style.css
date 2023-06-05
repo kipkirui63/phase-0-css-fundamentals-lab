@@ -8,10 +8,36 @@ h1{
 }
 img{
   align-items: center;
+  
 }
 nav{
+  text-align: center;
+}
+nav a{
   padding-left: 10px;
   padding-right: 10px;
   background-color: grey;
+  text-align: center;
+  justify-content: space-between;
+  border: 1px;
+}
+#featured-property {
+  text-align: center;
+}
+
+#featured-property p{
+  text-align: center;
+  font-weight: 5px;
+  width: 50%;
+  margin-left: 25%;
+
+}
+#details{
+  float: left;
+  justify-content: space-evenly;
+  background-color: red;
+  width: 100%;
+  display: flex;
+  
 }
 
